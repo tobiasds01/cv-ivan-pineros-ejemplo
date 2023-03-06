@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Amaranth:wght@700&family=Hammersmith+One&family=Ubuntu+Condensed&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0; padding: 0;
+    font-family: 'Ubuntu Condensed', 'Hammersmith One', sans-serif;
+}
+
+.flex { display: flex;}
+
+html {
+    background-image: url("imagenes/textura.jpg");
+}
+
+h1,h2 {
+    font-family: 'Aclonica', 'Amaranth', serif;
+    color: rgb(136, 31, 71);
+}
+
+h1 {
+    text-align: center;
+    margin-top: 2vw;
+    font-size: calc(20px + 1.8vw);
+}
+
+#ilustrador {
+    text-align: center;
+    font-size: calc(15px + 1vw);
+}
+
+nav {
+    margin-top: 2vw;
+    background-color: rgb(136, 31, 71);
+    padding: 1vw;
+    position: sticky;
+    top: 0px;
+}
+
+.menu {
+    justify-content: space-around;
+    align-items: center;
+}
+
+a {
+    color: rgb(125, 202, 221);
+    font-size: calc(12px + 0.5vw);
+    text-decoration: none;
+}
+
+section {
+    margin: 3vw;
+}
+
+h3,strong {
+    color: rgb(136, 31, 71);
+}
+
+#sobreMi p {
+    font-size: calc(12px + 0.8vw);
+    margin-top: 2vw;
+}
+
+#sobreMi img {
+    float: left;
+    max-width: 20vw;
+    margin: 2vw;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#miTrabajo {
+    clear: both;
+}
+
+#miTrabajo h2 {
+    margin-top: 2vw;
+}
+
+#miTrabajo img {
+    border: 0.5vw solid rgb(136, 31, 71);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    min-width: 15vw;
+    height: auto;
+}
+
+li {
+    font-size: calc(12px + 0.5vw);
+    margin-top: 0.3vw;
+    margin-left: 3vw;
+}
+
+footer {
+    background-color: rgb(45, 80, 88);
+    padding: 2vh;
+}
+
+#contacto h3 {
+    margin-left: 1vw;
+    color: rgb(125, 202, 221);
+    font-size: calc(15px + 1vw);
+}
+
+#contacto caption {
+    vertical-align: middle;
+}
+
+#contacto a {
+    font-size: calc(8px + 0.5vw);
+}
+
+#contacto img {
+    vertical-align: middle;
+    height: 25px;
+}
+
+@media only screen and (max-width: 767px) {
+    #contacto picture {
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
